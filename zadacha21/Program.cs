@@ -1,0 +1,15 @@
+﻿Console.Clear();
+double S = 0;
+double Rast = 0;
+Console.WriteLine("введите координаты точки А");
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+Console.WriteLine("введите координаты точки B");
+int d = int.Parse(Console.ReadLine());
+int e = int.Parse(Console.ReadLine());
+int g = int.Parse(Console.ReadLine());
+S = ((d - a) * ( d - a) + (e - b) * (e - b) + (g - c) * (g - c));
+Rast =Math.Sqrt(S);
+ Console.WriteLine("Расстояние равно"); 
+  Console.WriteLine(Rast); 
